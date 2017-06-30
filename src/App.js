@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import $ from 'jquery';
 import Poster from './Poster';
+import Search from './Search';
 
 class App extends Component {
 
@@ -46,6 +47,7 @@ class App extends Component {
         return (
             <div className="App">
                 <h1>This is the movie app (again)</h1>
+                <Search/>
                 {postersArray}
             </div>
         );
